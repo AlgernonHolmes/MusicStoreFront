@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="footer-content">
-                <h3><Link to="/" className="logo">SoundPalace <FaMusic/></Link></h3>
+                <h3><Link to="/" className="logo">SoundHouse <FaMusic/></Link></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua.</p>
             <ul className="links">
