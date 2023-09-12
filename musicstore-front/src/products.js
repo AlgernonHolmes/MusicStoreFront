@@ -2,7 +2,7 @@ import product1 from './assets/guitar.jpg'
 
 //Test file for store products
 
-/*
+
 export const PRODUCTS = [
     {
         id: 1,
@@ -53,4 +53,4 @@ export const PRODUCTS = [
         productImage: product1
     }
 ]
-*/
+
