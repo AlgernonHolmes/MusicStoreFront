@@ -9,7 +9,7 @@ import HomeContextProvider from './context/Home-context'
     
 
 
-
+// random comment
 export function App(){
  return (
       <HomeContextProvider>
@@ -17,10 +17,10 @@ export function App(){
             <Router>
                   <Navbar/>
             <Routes>
-                  <Route exact path='/' element={<Home/>}></Route>
-                  <Route exact path='/login' element={<LoginPage/>}></Route>
-                  <Route exact path='/cart' element={<Cart/>}></Route>
-                  <Route exact path='/register' element={<Register/>}></Route>
+                  <Route path='/' element={<Home/>}></Route>
+                  <Route path='/login' element={<LoginPage/>}></Route>
+                  <Route path='/cart' element={<Cart/>}></Route>
+                  <Route path='/register' element={<Register/>}></Route>
             </Routes>
                   <Footer/>
             </Router>
